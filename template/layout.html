@@ -1,0 +1,105 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFlaskApp</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <style>
+        input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+
+        }
+
+        .jumbotron {
+            background-image: url("../static/Screenshot_2018-07-24 healthy-for-life .png");
+            background-size: cover;
+            width: 90%;
+            background-repeat: no-repeat;
+            height: auto;
+            margin: auto;
+        }
+
+        body {
+            background-image: url("../static/blue-poly-background.jpg");
+            background-size: cover;
+            width: auto;
+            background-repeat: no-repeat;
+            height: auto;
+
+        }
+
+        .container {
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    {% include 'include/_navbar.html' %}
+    <div class="jumbotron">
+
+        <h1> Welcome To HealthCare</h1>
+        <p class='lead'> This application help you to find diabetic </p>
+
+    </div>
+    <div class='container'>
+
+    <form action="http://localhost:5000" method="POST">
+        <span style="display:inline-block; width:350;"></span> <strong> Please fill the following details </strong>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-50">
+                <label for="Year"> Year</label> <span style="display:inline-block; width:140;"></span>
+                <input type="text" id="Year" name="Glucose" placeholder="Glucose" required>
+            </div>
+            <span style="display:inline-block; width:80;"></span>
+            <div class="col-50">
+                <label for="Month"> Month </label> <span style="display:inline-block; width:93;"></span>
+                <input type="text" name="Month" placeholder="BloodPressure" required>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-50">
+                <label for="State"> State </label> <span style="display:inline-block; width:170;"></span>
+                <input type="text" id="State" name="State" placeholder="State" required>
+            </div>
+            <span style="display:inline-block; width:80;"></span>
+            <div class="col-50">
+                <label for="BMI"> District </label> <span style="display:inline-block; width:170;"></span>
+                <input type="text" name="District" placeholder="BMI" required>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-50">
+                <label for="State"> Crop Type </label> <span style="display:inline-block; width:95;"></span>
+                <input type="text" id="Crop" name="Crop" required placeholder="SkinThickness">
+            </div>
+
+
+        </div>
+
+        <br>
+        <span style="display:inline-block; width:400;"></span> <input type="submit" value="Submit"> <br> <br>
+    </form>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
