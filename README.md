@@ -24,11 +24,21 @@ https://www.indiawaterportal.org/articles/district-wise-monthly-rainfall-data-li
 ### Preprocessing
 
 1. Summary Data type
-2.  Normalization
-3.  Visualization
 
-![distributed](https://user-images.githubusercontent.com/26785960/53691018-c8d2e380-3d9b-11e9-90fd-889974611d7c.PNG)
+2. Normalization
 
-![heatmap](https://user-images.githubusercontent.com/26785960/53691020-ca9ca700-3d9b-11e9-94fb-63f3c6739718.PNG)
-![year](https://user-images.githubusercontent.com/26785960/53691021-ccff0100-3d9b-11e9-9771-9cb1b8fbbed0.PNG)
+3. One Hot Encoding
+
+4.  Visualization
+
+The visualization of the various feature using Histogram to see their frequency
 ![histo](https://user-images.githubusercontent.com/26785960/53691022-d25c4b80-3d9b-11e9-856d-c480db1add00.PNG)
+
+More animation way to visualize data in color matrix
+![heatmap](https://user-images.githubusercontent.com/26785960/53691020-ca9ca700-3d9b-11e9-94fb-63f3c6739718.PNG)
+
+Various Scatter Plot between 
+![year](https://user-images.githubusercontent.com/26785960/53691021-ccff0100-3d9b-11e9-9771-9cb1b8fbbed0.PNG)
+
+distribution plot to see how much our trained distribution fit to orginal distribution of data
+![distributed](https://user-images.githubusercontent.com/26785960/53691018-c8d2e380-3d9b-11e9-90fd-889974611d7c.PNG)
