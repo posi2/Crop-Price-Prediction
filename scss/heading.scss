@@ -1,0 +1,41 @@
+.section-heading {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 50px;
+
+  p {
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    margin-bottom: 10px;
+    font-size: 36px;
+    margin-left: -3px;
+    @media #{$breakpoint-lg} {
+      font-size: 30px;
+    }
+@media #{$breakpoint-md} {
+  font-size: 30px;
+}
+    span {
+      color: $primary;
+    }
+    @media #{$breakpoint-xs} {
+      font-size: 24px;
+    }
+  }
+
+  &.white {
+    h2,
+    p {
+      color: $white;
+
+      span {
+        color: $white;
+      }
+    }
+  }
+}

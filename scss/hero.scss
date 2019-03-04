@@ -1,0 +1,45 @@
+.hero-area {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.single-welcome-slides {
+  width: 100%;
+  height: 800px;
+  position: relative;
+  z-index: 1;
+  @media #{$breakpoint-lg} {
+    height: 550px;
+  }
+  @media #{$breakpoint-md} {
+    height: 600px;
+  }
+  @media #{$breakpoint-xs} {
+    height: 600px;
+  }
+  @media #{$breakpoint-xs-landscape} {
+    height: 450px;
+  }
+
+  .welcome-content {
+    position: relative;
+    z-index: 1;
+
+    h2 {
+      font-size: 50px;
+      text-transform: capitalize;
+      color: $white;
+      @media #{$breakpoint-md} {
+        font-size: 42px;
+      }
+      @media #{$breakpoint-xs} {
+        font-size: 30px;
+      }
+    }
+
+    p {
+      color: $white;
+    }
+  }
+}

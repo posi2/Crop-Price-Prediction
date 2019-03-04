@@ -1,0 +1,35 @@
+.famie-btn {
+    background-color: $hover;
+    @include transition-duration(500ms);
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    min-width: 160px;
+    height: 50px;
+    color: $white;
+    border-radius: 0;
+    padding: 0 30px;
+    font-size: 16px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    &:hover,
+    &:focus {
+        font-size: 16px;
+        font-weight: 700;
+        background-color: $dark;
+        color: $white;
+        box-shadow: none;
+    }
+}
+.checkout-btn {
+  height: 36px;
+  line-height: 36px;
+  font-size: 14px;
+  border-radius: 3px;
+  &:hover,
+  &:focus {
+      font-size: 14px;
+      font-weight: 700;
+  }
+}
