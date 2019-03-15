@@ -10,7 +10,7 @@
 2. Flask Framework
 3. Scikit Learn and other ML library
 
-![interface](https://user-images.githubusercontent.com/26680762/53691415-74cbfd00-3da3-11e9-9942-3a734f16b7b3.png)
+![interface](https://github.com/posi2/Crop-Price-Prediction/blob/master/interface.png)
 
 
 ### Resources
@@ -45,3 +45,5 @@ Various Scatter Plot between
 
 distribution plot to see how much our trained distribution fit to orginal distribution of data
 ![distributed](https://user-images.githubusercontent.com/26785960/53691018-c8d2e380-3d9b-11e9-90fd-889974611d7c.PNG)
+
+![output](https://github.com/posi2/Crop-Price-Prediction/blob/master/interface2.png)
